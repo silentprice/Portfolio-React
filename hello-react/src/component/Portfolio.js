@@ -6,16 +6,16 @@ function Portfolio() {
   // Sample project data, replace with your own project details
   const projects = [
     {
-      title: 'Project 1',
-      imageSrc: 'path-to-project-1-image.png',
-      deployedLink: 'https://example.com/project1',
-      githubLink: 'https://github.com/yourusername/project1',
+      title: 'Code Refactor',
+      imageSrc: './images/screenshot.png',
+      deployedLink: 'https://silentprice.github.io/code-refactor',
+      githubLink: 'https://silentprice.github.io/code-refactor',
     },
     {
-      title: 'Project 2',
-      imageSrc: 'path-to-project-2-image.png',
-      deployedLink: 'https://example.com/project2',
-      githubLink: 'https://github.com/yourusername/project2',
+      title: 'Group Project 2',
+      imageSrc: './images/Screenshot 2023-07-21 at 12.00.51 AM.png',
+      deployedLink: 'https://pacific-wildwood-17680-8e953e055e35.herokuapp.com',
+      githubLink: 'https://github.com/Anthonycodinach/Volunteer-Event-Tracker',
     },
     
   ];

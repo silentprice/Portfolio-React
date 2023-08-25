@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Navigation.css'; // Import the CSS for styling
+import './Navigation.css'; 
 
 function Navigation() {
   const [activeSection, setActiveSection] = useState('about');
