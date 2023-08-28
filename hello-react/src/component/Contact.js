@@ -18,8 +18,8 @@ function Contact() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Add logic to handle form submission, e.g., sending an email
-    console.log(formData); // For demonstration purposes
+    
+    console.log(formData); 
   };
 
   return (

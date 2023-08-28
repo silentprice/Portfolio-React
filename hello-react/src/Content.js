@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import AboutMe from './AboutMe'; // Import the AboutMe component
-import Portfolio from './Portfolio'; // Import the Portfolio component
-import Contact from './Contact'; // Import the Contact component
-import Resume from './Resume'; // Import the Resume component
-import './Content.css'; // Import the CSS for styling
+import AboutMe from './component/AboutMe'; 
+import Portfolio from './component/Portfolio'; 
+import Contact from './component/Contact'; 
+import Resume from './component/Resume'; 
+import './Content.css'; 
 
 function Content() {
   const [activeSection, setActiveSection] = useState('about');

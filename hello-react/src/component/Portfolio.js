@@ -3,7 +3,7 @@ import Project from './Project';
 import './Portfolio.css'; 
 
 function Portfolio() {
-  // Sample project data, replace with your own project details
+  
   const projects = [
     {
       title: 'Code Refactor',

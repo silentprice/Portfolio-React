@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <ul className="social-links">
-          <li><a href="#">GitHub</a></li>
+          <li><a href="#silentprice">GitHub</a></li>
           <li><a href="#">LinkedIn</a></li>
           <li> <p>Feel free to email me at <a href="mailto:nprice0502@yahoo.com">nprice0502@yahoo.com</a> for any inquiries or
             questions.</p></li>
