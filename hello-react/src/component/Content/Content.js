@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-import AboutMe from './component/AboutMe'; 
-import Portfolio from './component/Portfolio'; 
-import Contact from './component/Contact'; 
-import Resume from './component/Resume'; 
+import AboutMe from '../../pages/About/AboutMe'; 
+import Portfolio from '../../pages/Portfolio/Portfolio'; 
+import Contact from '../../pages/Contact/Contact'; 
+import Resume from '../../pages/Resume/Resume'; 
 import './Content.css'; 
 
-function Content() {
-  const [activeSection, setActiveSection] = useState('about');
+function Content({activeSection}) {
 
   const renderSection = () => {
     switch (activeSection) {

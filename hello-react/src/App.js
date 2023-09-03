@@ -1,22 +1,32 @@
-import React from 'react';
-import Header from './Header';
-import Navigation from './Navigation';
-import Content from './Content';
-import Footer from './Footer';
-import Portfolio from './component/Portfolio';
-import AboutMe from './component/AboutMe';
-import Project from './component/Project';
-import Resume from './component/Resume';
-import Contact from './component/Contact';
-import './App.css'; 
+import React from "react";
+import Header from "./component/Header/Header";
+import Content from "./component/Content/Content";
+import Footer from "./component/Footer/Footer";
+import "./App.css";
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import AboutMe from "./pages/About/AboutMe";
+import Portfolio from "./pages/Portfolio/Portfolio";
 
 function App() {
+  const [activeSection, setActiveSection] = React.useState("about");
   return (
     <div className="App">
-      <Header />
-      <Navigation />
-      <Content />
+      <Header
+        activeSection={activeSection}
+        setActiveSection={setActiveSection}
+      />
+      <Content activeSection={activeSection} />
       <Footer />
+
+      {/* <div>
+        <Router>
+          <Header />
+          <Routes>
+            <Route path='/' element={<AboutMe/>}/>
+            <Route path='/portfolio' element={<Portfolio/>}/>
+          </Routes>
+        </Router>
+      </div> */}
     </div>
   );
 }

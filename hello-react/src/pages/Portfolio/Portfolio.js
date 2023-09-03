@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from './Project'; 
+import Project from '../../component/Project'; 
 import './Portfolio.css'; 
 
 function Portfolio() {
