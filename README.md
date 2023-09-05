@@ -7,4 +7,4 @@
 * https://github.com/silentprice/Portfolio-React 
 
 ## Live URL
-* 
+* https://silentprice.github.io/Portfolio-React/ 
