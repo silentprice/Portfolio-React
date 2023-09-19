@@ -7,10 +7,10 @@ function Portfolio() {
   
   const projects = [
     {
-      title: 'Code Refactor',
+      title: 'LIFETIMES',
       imageSrc: {One},
-      deployedLink: 'https://silentprice.github.io/code-refactor',
-      githubLink: 'https://silentprice.github.io/code-refactor',
+      deployedLink: 'https://lifetimes-trip-planner-e4ba065bd3bc.herokuapp.com/ ',
+      githubLink: 'https://github.com/Anthonycodinach/Vacation-Itinerary-Planner',
     },
     {
       title: 'Group Project 2',
